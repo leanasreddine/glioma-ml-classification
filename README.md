@@ -48,7 +48,16 @@ The workflow included:
 |---|---:|---:|---:|---:|
 | Logistic Regression | 86.7% | 87.2% | 0.900 | 0.930 |
 | Random Forest | 84.4% | 84.8% | 0.909 | 0.929 |
+## Visual Results
 
+### ROC Curve Comparison
+![ROC Curve Comparison](figures/roc_curve_comparison.png)
+
+### Logistic Regression Confusion Matrix
+![Confusion Matrix](figures/confusion_matrix_logistic_regression.png)
+
+### Feature Importance
+![Feature Importance](figures/feature_importance.png)
 Both models showed strong discrimination between LGG and GBM.
 
 Random Forest achieved a slightly higher held-out ROC-AUC, while Logistic Regression achieved higher accuracy and balanced accuracy. Cross-validation ROC-AUC was nearly identical between the two approaches.
