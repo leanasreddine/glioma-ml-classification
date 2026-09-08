@@ -1,5 +1,7 @@
 # Machine Learning Classification of Glioma
+## Notebook
 
+[View the complete analysis notebook](Glioma_ML_Project_Clean_Portfolio.ipynb)
 ## Overview
 
 This project explores whether clinical characteristics and genetic mutation features can be used to distinguish lower-grade glioma (LGG) from glioblastoma (GBM) using supervised machine learning.
@@ -12,8 +14,14 @@ Two classification models were compared:
 - Random Forest
 
 The project focuses on model performance, validation, interpretability, and limitations rather than clinical deployment.
+## Key Results
 
-## Dataset
+- **Logistic Regression:** 86.7% test accuracy, ROC-AUC 0.900
+- **Random Forest:** ROC-AUC 0.909
+- **10-fold cross-validation ROC-AUC:** ~0.93 for both models
+- **Strongest predictive feature:** IDH1 mutation status
+
+## **Dataset:** [UCI Glioma Grading Clinical and Mutation Features](https://archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset)
 
 The analysis uses the Glioma Grading Clinical and Mutation Features dataset from the UCI Machine Learning Repository.
 
